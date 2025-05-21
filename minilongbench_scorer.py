@@ -36,16 +36,7 @@ def scorer(dataset, predictions, answers, all_classes):
         for ground_truth in ground_truths:
             score = max(score, dataset2metric[dataset](prediction, ground_truth, all_classes=all_classes))
         total_score += score
-    # print(len(predictions))
     return total_score / len(predictions)
-
-
-def fun(arr, idx):
-    arr = np.array(arr)
-    res = np.empty_like(arr)
-    for i in range(len(arr)):
-        res[idx[i]] = arr[i]
-    return res
 
 
 if __name__ == '__main__':
@@ -60,10 +51,8 @@ if __name__ == '__main__':
         file_scores = []
         scen_scores = [0 for i in range(6)]
         print("'", model, "',", sep="" )
-        # os.makedirs(f'E:\\testset\\longbench\\longbench_res\\' + model)
         path = path1 + f"\\" + model + f"\\"
         all_files = os.listdir(path)
-        # print("Evaluating on:", all_files)
         for filename in all_files:
             if not filename.endswith("json"):
                 continue
@@ -71,7 +60,6 @@ if __name__ == '__main__':
             dataset = filename.split('.')[0]
             with open(f"{path}{filename}", "r", encoding="utf-8") as f:
                 data = json.load(f)  
-                # print(data["0"])
                 for item in data:
                     item = data[item]
                     predictions.append(item["prediction"])
@@ -81,13 +69,10 @@ if __name__ == '__main__':
                     else:
                         answers.append(item["gold"])
                         all_classes = None
-                    # print(predictions[-1], answers[-1])
                     scores.append(scorer(dataset, [predictions[-1]], [answers[-1]], all_classes))
-                    # print(scores[-1])
                     if "time" in item:
                         time.append(item["time"])
 
-            # print(dataset, ":", np.mean(scores))
             all_scores += scores
 
         with open(f"eval_data/{model}_minilongbench_scores.pkl", "wb") as f:
