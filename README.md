@@ -28,15 +28,30 @@ pip install -r requirements.txt
 
 ## 🧪 Testing on MiniLongBench
 ### Obtain LLM's output on MiniLongBench
-### Calculate scores across the 237 test samples.
-### Calculate scores on MiniLongBench 
+Download MiniLongBench  [[Baidu Drive]](https://pan.baidu.com/s/1h2xeM2iEPJmdp9H-ZQpaMA?pwd=m1ce) [[Google Drive]](https://drive.google.com/drive/folders/1LnIk4zKQMjBKX7oFr1-FHUzpsmPISAIQ?usp=sharing) [[Hugging Face]](https://huggingface.co/datasets/linggm/RouterEval)
 
+Obtain LLM responses on OpenCompass:
+
+* Evaluate the LLM across all 237 test samples in MiniLongBench
+* Generate outputs in the format: pred_data/example
+
+
+### Calculate scores across the all test samples.
+
+To generate and store the evaluation scores on 237 test samples:
+
+```bash
+python minilongbench_scorer.py
+```
+
+
+### Calculate scores on MiniLongBench 
 There are two evaluation methods for MiniLongBench.
 
-1. **Predict the scores of LLMs on the full LongBench benchmark (`eval_by_pred.ipynb`):**
+1. **Predict the scores of LLMs on the full LongBench benchmark (`eval_new_llm_by_pred.ipynb`):**
    - This notebook show how to obtain MiniLongBench socres by predicting the scores of LLMs on the full LongBench benchmark
 
-2. **Directly calculate the scores of LLMs on MiniLongBench (`eval_directly.ipynb`):**
+2. **Directly calculate the scores of LLMs on MiniLongBench (`eval_new_llm_directly.ipynb`):**
    - This notebook show how to obtain MiniLongBench socres directly
 
 
