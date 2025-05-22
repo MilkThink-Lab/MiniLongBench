@@ -39,12 +39,12 @@ poetry install
 
 ## 🧪 Testing on MiniLongBench
 ### Obtain LLM's output on MiniLongBench
-Download MiniLongBench  [[Baidu Drive]](https://pan.baidu.com/s/1vUq3C5JR3ICo_g8_JXxJ0w?pwd=6erx) [[Google Drive]](https://drive.google.com/drive/folders/1Ps1_VoI1ExI1ZvVbBSCEKBuJGUlTeMmA?usp=sharing) [[Hugging Face]](https://huggingface.co/datasets/linggm/MiniLongBench)
+1. Download MiniLongBench  [[Baidu Drive]](https://pan.baidu.com/s/1vUq3C5JR3ICo_g8_JXxJ0w?pwd=6erx) [[Google Drive]](https://drive.google.com/drive/folders/1Ps1_VoI1ExI1ZvVbBSCEKBuJGUlTeMmA?usp=sharing) [[Hugging Face]](https://huggingface.co/datasets/linggm/MiniLongBench).
 
-Obtain LLM responses on [[OpenCompass]](https://github.com/open-compass/opencompass):
+2. Obtain LLM responses on [[OpenCompass]](https://github.com/open-compass/opencompass):
 
-* Evaluate the LLM across all 237 test samples in MiniLongBench
-* Generate outputs in the format: pred_data/example
+* Evaluate the LLM across all 237 test samples in MiniLongBench.
+* Generate outputs in the format: `pred_data/example`.
 
 
 ### Calculate scores across the all test samples.
