@@ -75,9 +75,17 @@ There are two evaluation methods for MiniLongBench.
 ### Evaluation
 There are two evaluation methods for MiniLongBench.
 
-1. Predict the scores of LLMs on the full LongBench benchmark (`eval_by_pred.ipynb`):
-2. Directly calculate the scores of LLMs on MiniLongBench (`eval_directly.ipynb`):
+1. Predict the scores of LLMs on the full LongBench benchmark (`eval_by_pred.ipynb`).
+2. Directly calculate the scores of LLMs on MiniLongBench (`eval_directly.ipynb`).
 
 
+## 📜 Citation  
 
-
+```bibtex
+@inproceedings{xxx,
+  title={xxx},
+  author={xxx},
+  booktitle={xxx},
+  year={xxx}
+}
+```
