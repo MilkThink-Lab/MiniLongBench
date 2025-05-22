@@ -3,6 +3,7 @@
 [![Project Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue)]()
 ![GitHub](https://img.shields.io/github/license/gbup-group/DIANet.svg)
+[![paper](https://img.shields.io/badge/cs.AI-2503.10657-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2503.10657)
 
 
 This repository is the official codebase of our paper "MiniLongBench: The Low-cost Long Context Understanding Benchmark for Large Language Models" 
@@ -58,20 +59,18 @@ python minilongbench_scorer.py
 ### Calculate scores on MiniLongBench 
 There are two evaluation methods for MiniLongBench.
 
-1. Predict the scores of LLMs on the full LongBench benchmark (`eval_new_llm_by_pred.ipynb`):
-   - This notebook show how to obtain MiniLongBench socres by predicting the scores of LLMs on the full LongBench benchmark
+1. Predict the scores of LLMs on the full LongBench benchmark (`eval_new_llm_by_pred.ipynb`): This notebook show how to obtain MiniLongBench socres by predicting the scores of LLMs on the full LongBench benchmark.
 
-2. Directly calculate the scores of LLMs on MiniLongBench (`eval_new_llm_directly.ipynb`):
-   - This notebook show how to obtain MiniLongBench socres directly
+2. Directly calculate the scores of LLMs on MiniLongBench (`eval_new_llm_directly.ipynb`): This notebook show how to obtain MiniLongBench socres directly.
 
 
 
 ## 🛠️ Reproducing the MiniLongBench 
 ### Representation Learning
-`representation_learning.ipynb` 展示了读取LongBench的评分数据，进行数据预处理，学习LLM和test sample的表征
+`representation_learning.ipynb` demonstrates how to load LongBench's evaluation data, perform data preprocessing, and learn representations for both the LLMs and test samples.
 
 ### Sample Clustering
-`sample_clustering.ipynb` 展示了对test sample的表征进行聚类，从而取出簇中心作为代表性测例
+`sample_clustering.ipynb` demonstrates how to cluster the representations of test samples and extract cluster centers as representative test samples. 
 
 ### Evaluation
 There are two evaluation methods for MiniLongBench.
