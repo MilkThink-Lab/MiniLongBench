@@ -6,7 +6,7 @@
 [![paper](https://img.shields.io/badge/cs.AI-2503.10657-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2503.10657)
 
 
-This repository is the official codebase of our paper "MiniLongBench: The Low-cost Long Context Understanding Benchmark for Large Language Models" 
+This repository is the official codebase of our paper "MiniLongBench: The Low-cost Long Context Understanding Benchmark for Large Language Models".
 
 The proposed MiniLongBench is a low-cost benchmark for evaluating the Long Context Understanding (LCU) capabilities of LLMs, featuring a compact yet diverse test set of only **237 samples** spanning 6 major task categories and 21 distinct tasks.
 
