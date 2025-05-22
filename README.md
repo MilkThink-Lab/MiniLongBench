@@ -14,7 +14,7 @@ Through empirical analysis of over 60 LLMs, MiniLongBench reduces the average ev
 
 ## 🎉 News
 
-2025-05 - We released MiniLongBench dataset in [[Baidu Drive]](https://pan.baidu.com/s/1h2xeM2iEPJmdp9H-ZQpaMA?pwd=m1ce) [[Google Drive]](https://drive.google.com/file/d/1jxwXZfdNfYfXfGSUWZUFAn1a2VSOZocZ/view?usp=sharing) [[Hugging Face]](https://huggingface.co/datasets/linggm/MiniLongBench). 👈🎉Please try it! 
+2025-05 - We released MiniLongBench dataset in [[Baidu Drive]](https://pan.baidu.com/s/1vUq3C5JR3ICo_g8_JXxJ0w?pwd=6erx) [[Google Drive]](https://drive.google.com/drive/folders/1Ps1_VoI1ExI1ZvVbBSCEKBuJGUlTeMmA?usp=sharing) [[Hugging Face]](https://huggingface.co/datasets/linggm/MiniLongBench). 👈🎉Please try it! 
 
 2025-05 - Our paper "MiniLongBench" has been accepted to the main track of ACL! [[Paper]](https://huggingface.co/datasets/linggm/MiniLongBench)👈🎉Please read it! 
 
@@ -38,7 +38,7 @@ poetry install
 
 ## 🧪 Testing on MiniLongBench
 ### Obtain LLM's output on MiniLongBench
-Download MiniLongBench  [[Baidu Drive]](https://pan.baidu.com/s/1h2xeM2iEPJmdp9H-ZQpaMA?pwd=m1ce) [[Google Drive]](https://drive.google.com/file/d/1jxwXZfdNfYfXfGSUWZUFAn1a2VSOZocZ/view?usp=sharing) [[Hugging Face]](https://huggingface.co/datasets/linggm/MiniLongBench)
+Download MiniLongBench  [[Baidu Drive]](https://pan.baidu.com/s/1vUq3C5JR3ICo_g8_JXxJ0w?pwd=6erx) [[Google Drive]](https://drive.google.com/drive/folders/1Ps1_VoI1ExI1ZvVbBSCEKBuJGUlTeMmA?usp=sharing) [[Hugging Face]](https://huggingface.co/datasets/linggm/MiniLongBench)
 
 Obtain LLM responses on OpenCompass:
 
