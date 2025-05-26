@@ -17,7 +17,7 @@ Through empirical analysis of over 60 LLMs, MiniLongBench reduces the average ev
 
 2025-05 - We released MiniLongBench dataset in [[Baidu Drive]](https://pan.baidu.com/s/1vUq3C5JR3ICo_g8_JXxJ0w?pwd=6erx) [[Google Drive]](https://drive.google.com/drive/folders/1Ps1_VoI1ExI1ZvVbBSCEKBuJGUlTeMmA?usp=sharing) [[Hugging Face]](https://huggingface.co/datasets/linggm/MiniLongBench). 👈🎉Please try it! 
 
-2025-05 - Our paper "MiniLongBench" has been accepted to the main track of ACL! [[Paper]](https://huggingface.co/datasets/linggm/MiniLongBench) 👈🎉Please read it! 
+2025-05 - Our paper "MiniLongBench" has been accepted to **ACL'25 main track**! [[Paper]](https://huggingface.co/datasets/linggm/MiniLongBench) 👈🎉Please read it! 
 
 
 ## ⚙️ Environment Setup
