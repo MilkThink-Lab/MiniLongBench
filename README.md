@@ -3,7 +3,7 @@
 [![Project Status](https://img.shields.io/badge/status-active-brightgreen.svg)]()
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue)]()
 ![GitHub](https://img.shields.io/github/license/gbup-group/DIANet.svg)
-[![paper](https://img.shields.io/badge/cs.AI-2503.10657-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2503.10657)
+[![paper](https://img.shields.io/badge/cs.AI-2505.19959-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2505.19959)
 
 
 This repository is the official codebase of our paper "MiniLongBench: The Low-cost Long Context Understanding Benchmark for Large Language Models".
@@ -17,7 +17,7 @@ Through empirical analysis of over 60 LLMs, MiniLongBench reduces the average ev
 
 2025-05 - We released MiniLongBench dataset in [[Baidu Drive]](https://pan.baidu.com/s/1vUq3C5JR3ICo_g8_JXxJ0w?pwd=6erx) [[Google Drive]](https://drive.google.com/drive/folders/1Ps1_VoI1ExI1ZvVbBSCEKBuJGUlTeMmA?usp=sharing) [[Hugging Face]](https://huggingface.co/datasets/linggm/MiniLongBench). 👈🎉Please try it! 
 
-2025-05 - Our paper "MiniLongBench" has been accepted to **ACL'25 main track**! [[Paper]](https://huggingface.co/datasets/linggm/MiniLongBench) 👈🎉Please read it! 
+2025-05 - Our paper "MiniLongBench" has been accepted to **ACL'25 main track**! [[Paper]](https://arxiv.org/abs/2505.19959) 👈🎉Please read it! 
 
 
 ## ⚙️ Environment Setup
@@ -78,13 +78,3 @@ There are two evaluation methods for MiniLongBench.
 2. Directly calculate the scores of LLMs on MiniLongBench (`eval_directly.ipynb`).
 
 
-## 📜 Citation  
-
-```bibtex
-@inproceedings{xxx,
-  title={xxx},
-  author={xxx},
-  booktitle={xxx},
-  year={xxx}
-}
-```
